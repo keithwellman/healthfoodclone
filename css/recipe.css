@@ -20,6 +20,9 @@ body {
   text-align: center;
   color: #A4A400;
 }
+h1 {
+  letter-spacing: 2px;
+}
 .nav {
   width: 1000px;
   margin: auto;
@@ -33,12 +36,18 @@ body {
   list-style-position: inside;
   border-right: 14px solid #212475;
 }
+#bullets {
+  list-style-type: circle;
+}
 .nav a {
   text-decoration: none;
 }
 .content {
   width: 100%;
   padding: 0 12px 0 12px;
+}
+img {
+  float: right;
 }
 span {
   font-weight: bold;
